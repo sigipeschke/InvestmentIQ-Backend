@@ -14,6 +14,6 @@ MySQL database for storing user ledger's.
 
 YahooFinance API for current stock data.
 
-##Technologies
+## Technologies
 
 Java, YahooFinance, SpringBoot, JPA, MySQL
