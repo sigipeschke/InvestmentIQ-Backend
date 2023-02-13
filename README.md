@@ -4,9 +4,7 @@ Frontend: https://github.com/sigipeschke/InvestmentIQ-Frontend
 
 ## Description
 
-Identifies a user's portfolio data using a unique email and id. A ledger of each users's stock transaction history is stored in a MySQL database.
-
-Fetching a user's ledger utilizes SpringBoot and JPA which is then combined with data retrieved from YahooFinance for current stock data.
+The InvestmentIQ backend is a Java-based server built using Spring Boot that provides data and functionalities to the frontend of the application. It connects to a MySQL database to store and manage a user's trade ledger, which is the history of all transactions made in the stock market. The server also communicates with Yahoo Finance to retrieve current and historical stock data. This data, along with the trade ledger, is then transmitted to the frontend to be displayed and used by the user.
 
 ## Features
 
